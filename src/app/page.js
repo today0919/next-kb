@@ -1,3 +1,4 @@
+import { ChevronRight } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -26,12 +27,12 @@ export default function Home() {
         <ul>
           <li>
             <Link href="#" className="flex flex-col gap-3">
-            < Image src="/images/intro2.avif" alt=""width={1300} height={1300}
+            < Image src="/images/media1.avif" alt=""width={1300} height={1300}
             className="w-full aspect-video object-cover"/>
 
             <div>
               <span className="text-purple-500 text-md font-medium">소셜미디어</span>
-              <span className="text-gray-300 text-md font-light"> • kg그룹</span>
+              <span className="text-gray-300 text-md font-light">  • kg그룹</span>
               <br />
               <strong className="text-xl font-bold">소통과 화합의 현장! KG모빌리티 파트너스 데이</strong>
             </div>
@@ -40,6 +41,17 @@ export default function Home() {
         </ul>
       </div>
     </section>
+
+    <section>
+      <div className="container">
+        <h2 className="text-2xl font-bold flex flex-col gap-3">
+          <Link href="#"> 곽재선의 창 <ChevronRight /> </Link>
+        </h2>
+        <div>
+        </div>
+      </div>
+    </section>
+    
   </div>
   );
 }
