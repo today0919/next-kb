@@ -21,3 +21,10 @@ body {
 }
 
 /* html/css 작업 여기서 하기 가능 */
+
+.container {
+  max-width: 1340px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 30px;
+}
